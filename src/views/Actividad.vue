@@ -19,39 +19,42 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario de verificación sobre herramientas financieras para generar valor',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la comprensión y aplicación de herramientas financieras para calcular e interpretar el punto de equilibrio, el margen de contribución, el apalancamiento operativo, el apalancamiento financiero y el Valor Económico Agregado, EVA, mediante el análisis de situaciones empresariales y la formulación de recomendaciones de mejora, acciones correctivas y preventivas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el propósito principal del punto de equilibrio?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Determinar la utilidad neta después de impuestos calculados.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Identificar el nivel de ventas donde no hay utilidad ni pérdida.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Calcular el costo del capital invertido por los propietarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Medir el efecto de la deuda sobre la utilidad del ejercicio.',
               esCorrecta: false,
             },
           ],
@@ -62,28 +65,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            'Una empresa vende un producto a $90.000 y su costo variable unitario es de $54.000. ¿Cuál es el margen de contribución unitario?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: '$36.000',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '$54.000',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '$90.000',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '$144.000',
               esCorrecta: false,
             },
           ],
@@ -92,28 +95,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            'Si una empresa tiene costos fijos de $24.000.000 y margen de contribución unitario de $30.000, ¿cuántas unidades debe vender para alcanzar el punto de equilibrio?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '600 unidades.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '700 unidades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '800 unidades.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '900 unidades.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +127,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Una empresa tiene margen de contribución porcentual de 40 % y costos fijos de $20.000.000. ¿Cuál es el punto de equilibrio en ventas?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '$8.000.000',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '$40.000.000',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '$50.000.000',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '$60.000.000',
               esCorrecta: false,
             },
           ],
@@ -153,29 +157,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué ocurre si aumenta el costo variable unitario y el precio de venta permanece igual?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Aumenta el margen de contribución.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El punto de equilibrio desaparece.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La utilidad esperada se mantiene igual.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Disminuye el margen de contribución.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -184,28 +189,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            'Una empresa desea obtener una utilidad de $12.000.000. Tiene costos fijos de $18.000.000 y margen de contribución unitario de $30.000. ¿Cuántas unidades debe vender?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: '1.000 unidades.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '400 unidades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '600 unidades.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '900 unidades.',
               esCorrecta: false,
             },
           ],
@@ -214,29 +219,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Cuál situación aumenta el punto de equilibrio?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Reducción de costos fijos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Aumento de costos fijos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aumento del margen de contribución.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Disminución del costo variable unitario.',
               esCorrecta: false,
             },
           ],
@@ -245,29 +249,31 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué mide el apalancamiento operativo?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El efecto de los costos fijos sobre la utilidad operacional.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El efecto de los impuestos sobre el patrimonio económico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El rendimiento mínimo esperado por los propietarios.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'El valor de los activos corrientes de la unidad económica.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +283,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Una empresa tiene margen de contribución de $60.000.000 y utilidad operacional de $20.000.000. ¿Cuál es el grado de apalancamiento operativo?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '0,33',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '2,00',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '3,00',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '4,00',
               esCorrecta: false,
             },
           ],
@@ -308,29 +314,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Si el grado de apalancamiento operativo es 2,5 y las ventas aumentan 10 %, ¿qué cambio aproximado se espera en la utilidad operacional?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '10 %',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '15 %',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '35 %',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '25 %',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -338,29 +344,32 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué mide el apalancamiento financiero?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El efecto de los gastos financieros sobre los resultados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La participación de inventarios en el activo de la empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El nivel mínimo de ventas para no perder en el ciclo fiscal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La diferencia entre costos fijos y variables de la empresa.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +379,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'Una empresa tiene utilidad operacional de $30.000.000 y gastos financieros de $6.000.000. ¿Cuál es la utilidad antes de impuestos?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: '$6.000.000',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: '$24.000.000',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: '$30.000.000',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '$36.000.000',
               esCorrecta: false,
             },
           ],
@@ -401,29 +410,29 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            'Con utilidad operacional de $30.000.000 y utilidad antes de impuestos de $24.000.000, ¿cuál es el grado de apalancamiento financiero?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '0,80',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '5,00',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '2,40',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '1,25',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -431,29 +440,31 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué representa el apalancamiento total?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El efecto conjunto del apalancamiento operativo y financiero.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La suma de los activos corrientes y los pasivos corrientes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El costo total de la mercancía vendida por la organización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La utilidad de la organización después de los impuestos.',
               esCorrecta: false,
             },
           ],
@@ -463,28 +474,185 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Si el apalancamiento operativo es 2,0 y el apalancamiento financiero es 1,5, ¿cuál es el apalancamiento total?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '0,50',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '1,50',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '2,00',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '3,00',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Cuál es la fórmula general del EVA?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Ventas - costos variables de la organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Costos fijos / margen de contribución.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'UODI - (capital invertido × costo de capital).',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Utilidad neta de la empresa / ventas × 100.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            'Una empresa tiene utilidad operacional de $80.000.000 y tasa de impuesto de 35 %. ¿Cuál es la UODI?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '$80.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '$108.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '$28.000.000',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '$52.000.000',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'Una empresa tiene capital invertido de $300.000.000 y costo de capital de 12 %. ¿Cuál es el cargo por capital?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '$36.000.000',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: '$300.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '$12.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '$25.000.000',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Una empresa tiene UODI de $52.000.000 y cargo por capital de $36.000.000. ¿Cuál es el EVA?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: '-$16.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: '$16.000.000',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: '$36.000.000',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '$88.000.000',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Cuál recomendación es más adecuada si una empresa presenta punto de equilibrio alto, apalancamiento operativo elevado y EVA negativo?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Aumentar costos fijos para ampliar la estructura operativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Ignorar el resultado porque la utilidad contable es suficiente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Revisar precios, costos, volumen de ventas y capital invertido.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar deuda sin revisar la capacidad de pago.',
               esCorrecta: false,
             },
           ],
