@@ -134,7 +134,7 @@
           .box___style_3.mb-0(data-aos="zoom-in")
             .row.align-items-center
               .col-xl.order-2.order-lg-1.fit___box_container
-                p La interpretación el ejemplo es la siguiente:
+                p La interpretación del ejemplo es la siguiente:
                 p #[b Interpretación del ejemplo:] un grado de apalancamiento operativo de 2,4 significa que, dentro de las condiciones analizadas, un cambio porcentual en las ventas puede generar un cambio aproximado 2,4 veces mayor en la utilidad operacional. Si las ventas aumentan 10 %, la utilidad operacional podría aumentar cerca de 24 %. Si las ventas disminuyen 10 %, la utilidad operacional podría caer cerca de 24 %.
                 p.mb-0 La empresa presenta sensibilidad operativa: el apalancamiento favorece los resultados cuando las ventas crecen, pero puede afectarlos si disminuyen. Por ello, debe analizarse junto con el punto de equilibrio y la estabilidad de las ventas.
               .col-xl-auto.order-1.order-lg-2
@@ -384,7 +384,7 @@
       Separador
       #t_3_9.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.9 Interpretación de resultados y decisiones asociadas
-      p.mb-5 El apalancamiento debe interpretarse según la estabilidad de las ventas, la estructura de costos, el nivel de deuda y la capacidad de pago. Su gestión implica revisar costos fijos, gastos financieros, deuda, ventas y margen de contribución, para administrarlo de acuerdo con la capacidad real de la empresa. A continuación, se expone orienta de lectura de resultados de apalancamiento y posibles acciones de mejora.
+      p.mb-5 El apalancamiento debe interpretarse según la estabilidad de las ventas, la estructura de costos, el nivel de deuda y la capacidad de pago. Su gestión implica revisar costos fijos, gastos financieros, deuda, ventas y margen de contribución, para administrarlo de acuerdo con la capacidad real de la empresa. A continuación, se expone la orientación de lectura de resultados de apalancamiento y posibles acciones de mejora.
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")

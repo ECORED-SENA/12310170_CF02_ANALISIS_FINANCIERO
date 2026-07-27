@@ -343,8 +343,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'gc.Scalahed.com. (s.f.). gc.Scalahed.com. Obtenido de ',
-      link: 'chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://gc.scalahed.com/recursos/files/r157r/w13330w/IngContaycostosU05.pdf?utm',
+      referencia: 'gc.Scalahed.com. (s.f.). gc.Scalahed.com.',
+      link: '',
     },
     {
       referencia:

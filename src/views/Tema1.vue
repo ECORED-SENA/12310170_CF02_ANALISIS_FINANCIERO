@@ -406,7 +406,7 @@
           p La empresa Comercial Horizonte S.A.S. desea preparar la información necesaria para calcular sus herramientas financieras. Durante el mes vendió 1.200 unidades a $60.000 cada una. El costo variable unitario fue de $36.000, los costos fijos fueron de $18.000.000, los gastos financieros de $3.000.000, la tasa de impuesto del 35 %, el capital invertido de $110.000.000 y el costo de capital estimado del 12 % anual.
       .color___box_1
         .px-5
-          p.mb-5 Para desarrollar el ejercicio se organiza la información así:
+          p.mb-5 Para desarrollar el ejercicio, se organiza la información así:
           .row.justify-content-center.mb-5
             .col-xl-8
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
@@ -453,7 +453,7 @@
                       td.ajuste-border-tabla.texto-left.text-weight-bold Costo de capital anual
                       td.ajuste-border-tabla.texto-left 12 %
                       td.texto-left Cálculo del cargo por capital
-      p.mb-5 Con los datos anteriores se obtienen resultados preliminares para los capítulos siguientes: ventas totales por $72.000.000, costo variable total por $43.200.000 y margen de contribución total por $28.800.000, calculado al restar los costos variables de las ventas. Los resultados preliminares se presentan el siguiente tabla:
+      p.mb-5 Con los datos anteriores se obtienen resultados preliminares para los capítulos siguientes: ventas totales por $72.000.000, costo variable total por $43.200.000 y margen de contribución total por $28.800.000, calculado al restar los costos variables de las ventas. Los resultados preliminares se presentan en la siguiente tabla:
       .color___box_1
         .px-5
           .row.justify-content-center.mb-5
@@ -512,7 +512,7 @@
                       img(src='@/assets/curso/temas/t1/img23.jpg', alt='').m-auto
                   .col-xl.fit___box_container
                     p.mb-0 Los gastos financieros reducen la utilidad antes de impuestos a $7.800.000, mostrando el efecto de la deuda sobre el resultado del periodo. La UODI de $7.020.000 servirá como base para calcular el EVA, al reflejar el resultado operativo después de impuestos sin incluir la forma de financiación.
-              p.mb-0 El cargo por capital anual es de $13.200.000; por tanto, para compararlo con la UODI mensual será necesario trabajar con periodos equivalentes y evitar mezclar datos mensuales con tasas o costos anuales.
+              p.mb-0 El cargo por capital anual es de $13.200.000; por tanto, para compararlo con la UODI mensual, será necesario trabajar con periodos equivalentes y evitar mezclar datos mensuales con tasas o costos anuales.
             .col-xl-4.col-md-9(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/temas/t1/img24.png", alt="").m-auto
@@ -744,7 +744,7 @@
             .bloque-texto-g__img(
               :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img34.jpg')})` }")
             .bloque-texto-g__texto.p-4
-              p #[b Interpretación del ejemplo:] La hoja permite evidenciar que, con 1.200 unidades vendidas, la empresa genera ventas por $72.000.000, utilidad operacional de $10.800.000 y un EVA preliminar positivo de $5.920.000, lo que indica que la operación supera el costo estimado de los recursos utilizados.
+              p #[b Interpretación del ejemplo:] la hoja permite evidenciar que, con 1.200 unidades vendidas, la empresa genera ventas por $72.000.000, utilidad operacional de $10.800.000 y un EVA preliminar positivo de $5.920.000, lo que indica que la operación supera el costo estimado de los recursos utilizados.
               br
               br
               p Además, al modificar las unidades vendidas, los resultados deben actualizarse automáticamente, permitiendo comparar escenarios antes de tomar decisiones sobre precios, costos, financiación o metas de venta.

@@ -16,7 +16,7 @@
                 figure
                   img(src='@/assets/curso/temas/intro/img1.jpg', alt='').m-auto
               .col-xl.fit___box_container
-                p.mb-0 Las herramientas financieras para la generación de valor orientan el uso de la información financiera actual para calcular e interpretar el punto de equilibrio, el apalancamiento operativo y financiero, y el Valor Económico Agregado, EVA. Estos instrumentos permiten analizar la relación entre ventas, costos, gastos, utilidad, deuda, capital invertido y costo de capital, con el fin de evaluar el desempeño operativo y financiero de la empresa.
+                p.mb-0 Las herramientas financieras para la generación de valor orientan el uso de la información financiera actual para calcular e interpretar el punto de equilibrio, el apalancamiento operativo y financiero; y el Valor Económico Agregado, EVA. Estos instrumentos permiten analizar la relación entre ventas, costos, gastos, utilidad, deuda, capital invertido y costo de capital, con el fin de evaluar el desempeño operativo y financiero de la empresa.
           p.mb-0 Su aplicación facilita la toma de decisiones relacionadas con precios, volumen de ventas, control de costos, estructura de financiación, rentabilidad y generación de valor. A partir de los resultados obtenidos, es posible formular recomendaciones de mejora, acciones correctivas y acciones preventivas que contribuyan a fortalecer la operación, reducir riesgos y orientar la sostenibilidad financiera del negocio.
         .col-xl-4.col-md-9(data-aos="fade-left")
           figure

@@ -9,7 +9,7 @@
       p.mb-5 El Valor Económico Agregado, EVA, permite evaluar si la empresa crea valor después de cubrir costos operativos, impuestos y costo del capital invertido. A diferencia de la utilidad contable, muestra si la rentabilidad obtenida compensa los recursos utilizados, por lo que orienta decisiones de inversión, financiación, mejora y gestión financiera. (UNIR, 2024).
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.1 Generación de valor en la empresa
-      p.mb-5 La generación de valor ocurre cuando la empresa obtiene una rentabilidad superior al costo de los recursos utilizados. Implica usar eficientemente activos, capital, deuda y patrimonio, controlar costos y mejorar la rentabilidad. El EVA mide esta relación al comparar la utilidad operacional después de impuestos con el costo del capital. (Bonilla, 2010).  Lo siguiente, permite diferenciar utilidad contable, UODI y EVA en la generación de valor.
+      p.mb-5 La generación de valor ocurre cuando la empresa obtiene una rentabilidad superior al costo de los recursos utilizados. Implica usar eficientemente activos, capital, deuda y patrimonio, controlar costos y mejorar la rentabilidad. El EVA mide esta relación al comparar la utilidad operacional después de impuestos con el costo del capital. (Bonilla, 2010).  Lo siguiente; permite diferenciar utilidad contable, UODI y EVA en la generación de valor.
       TabsC.color-acento-contenido.mb-0(data-aos="zoom-in")
         .py-3.py-md-4(titulo="Utilidad neta")
           .row.justify-content-center.align-items-center

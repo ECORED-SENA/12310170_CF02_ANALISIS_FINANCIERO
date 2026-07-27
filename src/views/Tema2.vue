@@ -144,7 +144,7 @@
           br
           .box___style_6
             h5.mb-0 Punto de equilibrio en unidades = costos fijos / margen de contribución unitario
-      p.mb-5 El cálculo de unidades mínimas requeridas para cubrir los costos, se realiza así:
+      p.mb-5 El cálculo de unidades mínimas requeridas para cubrir los costos; se realiza así:
       .color___box_4
         .px-5
           .row.justify-content-center.mb-5
@@ -307,12 +307,12 @@
           p.mb-5 Para fortalecer la comprensión del punto de equilibrio, se invita a reproducir el siguiente video, en el cual se explica de manera sencilla cómo identificar el nivel mínimo de ventas que necesita alcanzar una empresa para cubrir sus costos y empezar a generar utilidad. 
           figure(data-aos="zoom-in").mb-0
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption.fit___figcaption-video Video. “Punto de equilibrio: el nivel mínimo para no perder”
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/iHP-Eqa_jJo" title="Puntos de equilibrio: el nivel mínimo para no perder" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            figcaption.fit___figcaption-video Video. Puntos de equilibrio: el nivel mínimo para no perder
       Separador
       #t_2_8.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.8 Decisiones sobre precios, costos, volumen de ventas y utilidad
-      p.mb-5 El punto de equilibrio permite analizar cómo los cambios en precio, costo variable o costos fijos afectan la operación. Si mejora el margen de contribución, se requieren menos ventas para alcanzar el equilibrio; si aumentan los costos, la empresa debe vender más para cubrirlos. Seguidamente, se presentarán cómo ciertas decisiones pueden aumentar o disminuir el punto de equilibrio.
+      p.mb-5 El punto de equilibrio permite analizar cómo los cambios en precio, costo variable o costos fijos afectan la operación. Si mejora el margen de contribución, se requieren menos ventas para alcanzar el equilibrio; si aumentan los costos, la empresa debe vender más para cubrirlos. Seguidamente, se presentará cómo ciertas decisiones pueden aumentar o disminuir el punto de equilibrio.
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
@@ -342,7 +342,7 @@
           p La empresa Comercial Delta S.A.S. vende un producto a $80.000 por unidad. Su costo variable unitario es de $50.000 y sus costos fijos mensuales son de $18.000.000. La gerencia desea conocer el punto de equilibrio, las ventas requeridas y la meta necesaria para obtener una utilidad operacional de $9.000.000.
       .color___box_4
         .px-5
-          p.mb-5 Para desarrollar del ejemplo, se realizan los siguientes cálculos:
+          p.mb-5 Para desarrollar el ejemplo, se realizan los siguientes cálculos:
           .row.justify-content-center.mb-5
             .col-xl-6
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
