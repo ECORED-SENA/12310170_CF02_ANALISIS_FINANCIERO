@@ -272,7 +272,7 @@
             .col-xl.mb-4.mb-lg-0
               .box___style_4.fit___box_1(data-aos="fade-right")
                 p La interpretación es la siguiente:
-                p.mb-0 #[b Interpretación del ejemplo:] Un grado de apalancamiento financiero de 1,33 indica que los gastos financieros amplifican el efecto de la utilidad operacional sobre el resultado antes de impuestos. Si la utilidad operacional aumenta, el resultado después de intereses puede mejorar; pero si la utilidad operacional disminuye, los intereses pueden reducir significativamente la utilidad antes de impuestos.
+                p.mb-0 #[b Interpretación del ejemplo:] un grado de apalancamiento financiero de 1,33 indica que los gastos financieros amplifican el efecto de la utilidad operacional sobre el resultado antes de impuestos. Si la utilidad operacional aumenta, el resultado después de intereses puede mejorar; pero si la utilidad operacional disminuye, los intereses pueden reducir significativamente la utilidad antes de impuestos.
             .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/t3/img15.jpg', alt='').m-auto
